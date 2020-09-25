@@ -49,7 +49,6 @@ public class Solution2 {
         int osl = orders.length;
         int csl = course.length;
         for(int i=0; i<osl; i++) {
-        	// ?˜¤ë¦„ì°¨?ˆœ
         	char[] ca = orders[i].toCharArray();
         	Arrays.sort(ca);
         	
